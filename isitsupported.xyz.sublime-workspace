@@ -1,0 +1,586 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dwBit",
+				"dwStartingBitmapPixel"
+			],
+			[
+				"dwSt",
+				"dwStartingScreenPixel"
+			],
+			[
+				"bi",
+				"biWidth"
+			],
+			[
+				"b",
+				"biHeight"
+			],
+			[
+				"RES",
+				"RES_WIDTH"
+			],
+			[
+				"Re",
+				"ReWindow"
+			],
+			[
+				"spr",
+				"sprites"
+			],
+			[
+				"Starting",
+				"dwStartingScreenPixel"
+			],
+			[
+				"dwPi",
+				"dwPixelSize"
+			],
+			[
+				"dwEnt",
+				"dwMatchedEntities"
+			],
+			[
+				"E",
+				"EntitySignature"
+			],
+			[
+				"S",
+				"EntitySignature"
+			],
+			[
+				"Bit",
+				"pBitmapInfo"
+			],
+			[
+				"BitM",
+				"wBitmapHeader"
+			],
+			[
+				"INV",
+				"INVALID_SIGNATURE"
+			],
+			[
+				"Ent",
+				"EntitySignature"
+			],
+			[
+				"dw",
+				"dwSpriteCount"
+			],
+			[
+				"Spri",
+				"SpriteIndex"
+			],
+			[
+				"Spr",
+				"SpriteIndex"
+			],
+			[
+				"ent",
+				"entity"
+			],
+			[
+				"Comp",
+				"ComponentType"
+			],
+			[
+				"ENt",
+				"EntityId"
+			],
+			[
+				"INVALD",
+				"INVALID_SIGNATURE"
+			],
+			[
+				"Entit",
+				"EntityStack"
+			],
+			[
+				"enti",
+				"entity"
+			],
+			[
+				"Enti",
+				"EntityStack"
+			],
+			[
+				"MAX",
+				"MAX_ENTITIES"
+			],
+			[
+				"g",
+				"g_Registered"
+			],
+			[
+				"g_",
+				"g_RegHandle"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"g_Reg",
+				"g_RegisterDone"
+			],
+			[
+				"Mat",
+				"MatchAnyKeyword"
+			],
+			[
+				"INVALID",
+				"INVALID_SET_FILE_POINTER"
+			],
+			[
+				"inv",
+				"invalid_argument"
+			],
+			[
+				"Sprite",
+				"SpritePath"
+			],
+			[
+				"i",
+				"invalid_argument"
+			],
+			[
+				"BITMAP",
+				"BITMAPBUFFER"
+			],
+			[
+				"make",
+				"make_unique"
+			],
+			[
+				"uint",
+				"uint32_t"
+			],
+			[
+				"Sp",
+				"SpritePath"
+			],
+			[
+				"u",
+				"uint8_t"
+			],
+			[
+				"V",
+				"vec2"
+			],
+			[
+				"inde",
+				"indexOfLastElement"
+			],
+			[
+				"mIndex",
+				"mIndexToEntityMap"
+			],
+			[
+				"indexof",
+				"indexOfRemovedEntity"
+			],
+			[
+				"coor",
+				"coordinator"
+			],
+			[
+				"Coor",
+				"Coordinator"
+			],
+			[
+				"index",
+				"indexOfRemovedEntity"
+			],
+			[
+				"Syst",
+				"SystemComponents"
+			],
+			[
+				"rc",
+				"rcClient"
+			],
+			[
+				"un",
+				"unique_ptr"
+			],
+			[
+				"uni",
+				"unique_ptr"
+			],
+			[
+				"Remo",
+				"RemoveData"
+			],
+			[
+				"mCom",
+				"mComponentArray"
+			],
+			[
+				"GetCom",
+				"GetComponentArray"
+			],
+			[
+				"Compon",
+				"ComponentType"
+			],
+			[
+				"mCompone",
+				"mComponentArrays"
+			],
+			[
+				"type",
+				"typename"
+			],
+			[
+				"mComp",
+				"mComponentArrays"
+			],
+			[
+				"mCon",
+				"mComponentType"
+			],
+			[
+				"g_h",
+				"g_hRunningMutex"
+			],
+			[
+				"hB",
+				"hDebugPurple"
+			],
+			[
+				"WM_",
+				"WM_LBUTTONDOWN"
+			],
+			[
+				"LRES",
+				"LRESULT"
+			],
+			[
+				"lPra",
+				"lParam"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Batch Build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Batch Build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Batch Build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/Batch_Build.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Batch_Build.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Preferences: Browse Packages"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Development/isitsupported.xyz",
+		"/D/Development/isitsupported.xyz/Controllers"
+	],
+	"file_history":
+	[
+		"/D/Development/isitsupported.xyz/Controllers/ApiController.cs",
+		"/D/Development/isitsupported.xyz/Startup.cs",
+		"/D/Development/isitsupported.xyz/Controllers/HomeController.cs",
+		"/D/Development/isitsupported.xyz/isitsupported.xyz.csproj",
+		"/D/Development/isitsupported.xyz/isitsupported.xyz.sublime-project",
+		"/D/Development/Scratch/src/Systems/rendersystem.h",
+		"/D/Development/Scratch/src/Components/sprite.h",
+		"/D/Development/Scratch/src/Systems/rendersystem.c",
+		"/D/Development/Scratch/src/Core/coordinator.h",
+		"/D/Development/Scratch/src/Components/sprite.c",
+		"/D/Development/Scratch/src/main.c",
+		"/D/Development/Scratch/src/Math/basicmath.h",
+		"/D/Development/Scratch/src/Core/coordinator.c",
+		"/D/Development/Scratch/src/Core/types.h",
+		"/D/Development/Scratch/src/Core/entity.h",
+		"/D/Development/Scratch/.gitignore",
+		"/D/Development/Scratch/src/Core/logger.h",
+		"/D/Development/Scratch/src/Core/logger.c",
+		"/D/Development/Scratch/build.bat",
+		"/D/Development/Scratch/src/Core/component.h",
+		"/D/Development/Scratch/src/Structures/EntityStack.h",
+		"/D/Development/Scratch/src/Structures/linked_list.h",
+		"/D/Development/Scratch/src/scratch.man.xml",
+		"/C/Windows/WinSxS/amd64_microsoft-windows-m..nifests-onecorebase_31bf3856ad364e35_10.0.22000.1_none_7b9de57048bc6ede/DFSClient-DL.man",
+		"/D/Development/Scratch/src/Systems/RenderSystem.h",
+		"/D/Development/Scratch/src/Core/Types.h",
+		"/D/Development/Scratch/src/Systems/RenderSystem.cpp",
+		"/D/Development/Scratch/src/Components/sprite.cpp",
+		"/C/Users/Willi/OneDrive/Base AutoKey.ahk",
+		"/D/Development/Scratch/src/Core/componentarray.h",
+		"/D/Development/Scratch/src/Core/componentmanager.h",
+		"/D/Development/Scratch/src/Components/render.h",
+		"/D/Development/Scratch/src/Components/transform.h",
+		"/D/Development/Scratch/src/Core/entitymanager.h",
+		"/D/Development/Scratch/src/Math/vec2.h",
+		"/D/Development/Scratch/src/Components/playerinput.h",
+		"/D/Development/Scratch/src/main.cpp",
+		"/D/Development/Scratch/src/Core/systemmanager.h",
+		"/D/Development/Scratch/src/Core/system.h",
+		"/D/Development/Scratch/src/Core/signature.h",
+		"/D/Development/Scratch/src/Core/componenttypes.h",
+		"/D/Development/Scratch/src/engine.cpp",
+		"/D/Development/Scratch/src/engine.h",
+		"/D/Development/Scratch/src/coordinator.h",
+		"/D/Development/Scratch/src/componentmgr.h",
+		"/D/Development/Scratch/src/componentarray.h",
+		"/D/Development/Scratch/src/types.h",
+		"/D/Development/Scratch/src/systemmgr.h",
+		"/D/Development/Scratch/src/system.h",
+		"/D/Development/Scratch/src/entitymgr.h",
+		"/D/Development/Scratch/src/entityMgr.h",
+		"/D/Development/Scratch/src/entity.cpp",
+		"/D/Development/Scratch/src/component.h",
+		"/D/Development/Scratch/src/logger.h",
+		"/D/Development/Scratch/src/logger.c",
+		"/D/Development/Scratch/Trace.bat",
+		"/D/Development/Scratch/Scratch.wprp",
+		"/C/Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/shared/TraceLoggingProvider.h",
+		"/D/Development/Scratch/Scratch.sublime-project",
+		"/C/Users/Willi/AppData/Roaming/Sublime Text/Packages/User/Batch_Build.sublime-build"
+	],
+	"find":
+	{
+		"height": 27.2
+	},
+	"find_in_files":
+	{
+		"height": 111.2,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"EngineWindow",
+			"SpCreateSprite",
+			";",
+			"CoAddComponentTypeToEntity",
+			"EntityArray",
+			"stack",
+			"s_Logg",
+			"coordinator",
+			"Engine",
+			"start",
+			"Vec3",
+			"OnPaint",
+			"hRunning",
+			"TRACELOGGING_DEFINE_PROVIDER",
+			"_tracelogging_SyntaxError_ProviderIdMustBeInParenthesis",
+			"SimpleTraceLoggingProvider",
+			"EventProvider_SimpleTraceLoggingProvider",
+			"\n#"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"CoEntityArray",
+			"EnStack",
+			"g_Coordinator",
+			"RenderSystem",
+			"Vec2",
+			"Scratch",
+			"ScratchLoggingProvider",
+			"EventProvider_ScratchLoggingProvider"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.2
+	},
+	"input":
+	{
+		"height": 42.4
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 421.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "isitsupported.xyz.sublime-project",
+	"replace":
+	{
+		"height": 51.2
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 286.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
