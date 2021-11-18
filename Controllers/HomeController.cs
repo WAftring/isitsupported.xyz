@@ -27,7 +27,10 @@ namespace isitsupported.xyz.Controllers
             var EnumerateResults = ApiRequester.GetStringAsync("/Enumerate");
             return View();
         }
-
+        public IActionResult About()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
