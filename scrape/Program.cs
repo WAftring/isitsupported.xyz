@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
@@ -12,10 +13,21 @@ namespace scrape
 
         static void Main(string[] args)
         {
-            ProcessSupportList();
+            Console.WriteLine("scrape: Scrape product website for specific support dates");
+            bool bPrint = false;
+            if(args.Length == 0)
+            {
+                Console.WriteLine("-p\tPrint the output");
+                Console.WriteLine("-f\tWrite the output to a file");
+                return;
+            }
+            if(args[0] == "-p")
+                bPrint = true;
+            
+            ProcessSupportList(bPrint);
         }
 
-        static void ProcessSupportList()
+        static void ProcessSupportList(bool Print)
         {
             List<Tuple<string, string, string>> ProcessList = new List<Tuple<string, string, string>>();
             List<Product> ProductList = new List<Product>();
@@ -27,7 +39,15 @@ namespace scrape
             }
 
             string ProductJson = JsonConvert.SerializeObject(ProductList);
-            Console.WriteLine(ProductJson);
+            
+            if(Print)
+            {
+               Console.WriteLine(ProductJson);
+            }
+            else
+            {
+                File.WriteAllText("products.json", ProductJson);
+            }
         }
     }
 }
