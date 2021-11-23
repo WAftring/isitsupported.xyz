@@ -9,6 +9,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
+using Microsoft.AspNetCore.HttpOverrides;
+
 namespace isitsupported.xyz
 {
     public class Startup
@@ -44,17 +46,18 @@ namespace isitsupported.xyz
 
             app.UseRouting();
 
+            app.UseForwardedHeaders(new ForwardedHeadersOptions 
+            {
+                ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
+            });
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                    name: "api",
-                    pattern: "api/{action}",
-                    defaults: new { controller = "Api", action = "Error"});
-                endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{product?}");
             });
         }
     }

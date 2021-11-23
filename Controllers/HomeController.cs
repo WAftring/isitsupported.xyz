@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using isitsupported.xyz.Models;
 
 namespace isitsupported.xyz.Controllers
@@ -14,19 +15,32 @@ namespace isitsupported.xyz.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private HttpClient ApiRequester { get; set; }
+        // FIXME(will) This is dumb and I probably shouldn't be doing this
+        private ApiController Api = new ApiController(null);
+        public ProductModel Products = new ProductModel();
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-            ApiRequester = new HttpClient();
-            ApiRequester.BaseAddress = new Uri("http://localhost/api");
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string product)
         {
-            var EnumerateResults = ApiRequester.GetStringAsync("/Enumerate");
-            return View();
+            string DisplayResults = "";
+            
+            if(null != product)
+            {
+                DisplayResults = Api.Query(product);
+                var Model = JsonConvert.DeserializeObject<ProductModel>(DisplayResults);
+                return View("Product", Model);
+            }
+            else
+            {
+                DisplayResults = Api.Enumerate();
+                var Model = JsonConvert.DeserializeObject<List<ProductModel>>(DisplayResults);
+                return View(Model);
+            }
         }
+        
         public IActionResult About()
         {
             return View();

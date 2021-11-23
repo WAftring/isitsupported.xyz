@@ -51,6 +51,20 @@ button.accept-policy {
   line-height: inherit;
 }
 
+
+/* Table setup
+-------------------------------------------------- */
+table {
+  margin: auto;
+}
+th {
+  text-align: center;
+  padding: 5px 5em;
+}
+
+td {
+
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
